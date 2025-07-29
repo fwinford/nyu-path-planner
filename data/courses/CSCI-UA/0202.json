@@ -1,0 +1,20 @@
+{
+  "id": "CSCI-UA.0202",
+  "title": "Operating Systems",
+  "credits": 4,
+  "description": "This course covers the principles and design of operating systems. Topics include process scheduling and synchronization, deadlocks, memory management including virtual memory, input-output and file systems. Programming assignments.",
+  "offeredTerms": ["Fall", "Spring"],
+  "grading": "CAS Graded",
+  "repeatable": false,
+  "prerequisites": [
+    {
+      "type": "course",
+      "options": [
+        { "id": "CSCI-UA.0201", "minGrade": "C" },
+        { "id": "CENG-SHU.0202" },
+        { "id": "CS-UH.2010" },
+        { "id": "ENGR-UH.3511" }
+      ]
+    }
+  ]
+}

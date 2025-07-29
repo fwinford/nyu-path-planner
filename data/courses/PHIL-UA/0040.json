@@ -1,0 +1,10 @@
+{
+  "id": "PHIL-UA.0040",
+  "title": "Ethics",
+  "credits": 4,
+  "description": "Examines fundamental questions of moral philosophy: What are our most basic values, and which of them are specifically moral values? What are the ethical principles, if any, by which we should judge our actions, ourselves, and our lives?",
+  "offeredTerms": ["Fall", "Spring"],
+  "grading": "CAS Graded",
+  "repeatable": false,
+  "prerequisites": []
+}

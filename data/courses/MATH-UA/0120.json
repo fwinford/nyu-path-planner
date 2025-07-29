@@ -1,0 +1,10 @@
+{
+  "id": "MATH-UA.0120",
+  "title": "Discrete Mathematics",
+  "credits": 4,
+  "description": "A first course in discrete mathematics. Sets, algorithms, and induction. Combinatorics. Graphs and trees. Combinatorial circuits. Logic and Boolean algebra.",
+  "offeredTerms": ["Fall", "Spring", "Summer"],
+  "grading": "CAS Graded",
+  "repeatable": false,
+  "prerequisites": []
+}

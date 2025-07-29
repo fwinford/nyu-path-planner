@@ -1,0 +1,10 @@
+{
+  "id": "MATH-UA.0121",
+  "title": "Calculus I",
+  "credits": 4,
+  "description": "Derivatives, antiderivatives, and integrals of functions of one variable. Applications include graphing, maximizing, and minimizing functions. Definite integrals and the fundamental theorem of calculus. Areas and volumes.",
+  "offeredTerms": ["Fall", "Spring", "Summer"],
+  "grading": "CAS Graded",
+  "repeatable": false,
+  "prerequisites": []
+}

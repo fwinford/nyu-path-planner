@@ -1,0 +1,20 @@
+{
+  "id": "CSCI-UA.0201",
+  "title": "Computer Systems Organization",
+  "credits": 4,
+  "description": "This course covers the internal structure of computers, machine (assembly) language programming, and the use of pointers in high-level languages. Topics include the logical design of computers, computer architecture, the internal representation of data, instruction sets, and addressing logic, as well as pointers, structures, and other features of high-level languages that relate to assembly language. Programming assignments will be both in assembly language and other languages.",
+  "offeredTerms": ["Fall", "Spring", "Summer"],
+  "grading": "CAS Graded",
+  "repeatable": false,
+  "prerequisites": [
+    {
+      "type": "course",
+      "options": [
+        { "id": "CSCI-UA.0102", "minGrade": "C" },
+        { "id": "CSCI-SHU.0210", "minGrade": "C" },
+        { "id": "CS-UH.1050", "minGrade": "C" },
+        { "id": "ENGR-UH.3510" }
+      ]
+    }
+  ]
+}

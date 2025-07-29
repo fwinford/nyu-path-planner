@@ -1,0 +1,49 @@
+{
+  "id": "philosophy-ba",
+  "name": "Philosophy",
+  "degree": "BA",
+  "type": "major",
+  "school": "CAS",
+  "totalCredits": 32,
+  "requiredCourses": [
+    {
+      "courseId": "PHIL-UA.0070",
+      "type": "logic"
+    },
+    {
+      "courseId": "PHIL-UA.0020",
+      "type": "ancient"
+    },
+    {
+      "type": "group",
+      "groupName": "Ethics, Values, or Political Philosophy",
+      "choose": 1,
+      "courseIds": [
+        "PHIL-UA.0040",
+        "PHIL-UA.0041",
+        "PHIL-UA.0045"
+      ]
+    },
+    {
+      "courseId": "PHIL-UA.0300",
+      "type": "capstone"
+    }
+  ],
+  "electiveGroups": [
+    {
+      "groupId": "philosophy-electives",
+      "groupName": "Philosophy Electives",
+      "description": "Choose 4 additional philosophy courses. These may include a second ethics course or seminar.",
+      "choose": 4,
+      "courseIds": []
+    }
+  ],
+  "notes": [
+    "PHIL-UA 70 (Logic) is required.",
+    "PHIL-UA 20 (Ancient Philosophy) is required.",
+    "Choose one from: PHIL-UA 40, 41, or 45.",
+    "One advanced seminar (PHIL-UA 300) is required.",
+    "The remaining 4 courses may be any PHIL-UA course, including a second ethics course or seminar."
+  ],
+  "lastUpdated": "2025-07-28"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "PHIL-UA.0020",
+  "title": "Ancient Greek and Roman Philosophy",
+  "credits": 4,
+  "description": "Examines some of the most important philosophical ideas and developments in Ancient Greece and Rome. Covers major writings by Plato and Aristotle, and a selection of writings by such thinkers as the Presocratics, Stoics, Epicureans, and Skeptics.",
+  "offeredTerms": ["Fall"],
+  "grading": "CAS Graded",
+  "repeatable": false,
+  "prerequisites": []
+}

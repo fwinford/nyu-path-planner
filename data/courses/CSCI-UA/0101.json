@@ -1,0 +1,27 @@
+{
+  "id": "CSCI-UA.0101",
+  "title": "Introduction to Computer Science",
+  "credits": 4,
+  "description": "Students learn how to design algorithms to solve problems and how to translate these algorithms into working computer programs. Experience is acquired through programming projects in a high level programming language. CSCI-UA 101 is intended as a first course for computer science majors, and for students of other scientific disciplines. Programming assignments.",
+  "offeredTerms": ["Fall", "Spring", "Summer"],
+  "grading": "CAS Graded",
+  "repeatable": false,
+  "prerequisites": [
+    {
+      "type": "course",
+      "options": [
+        { "id": "CSCI-UA.0002", "minGrade": "C" },
+        { "id": "CSCI-SHU.0011", "minGrade": "C" },
+        { "id": "CSCI-UA.0003" },
+        { "id": "CS-UY.1114" }
+      ]
+    },
+    {
+      "type": "exam",
+      "options": [
+        { "exam": "AP Computer Science A", "minScore": 3 },
+        { "exam": "AP Computer Science Principles", "minScore": 4 }
+      ]
+    }
+  ]
+}

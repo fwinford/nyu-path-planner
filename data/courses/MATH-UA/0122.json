@@ -1,0 +1,10 @@
+{
+  "id": "MATH-UA.0122",
+  "title": "Calculus II",
+  "credits": 4,
+  "description": "Techniques of integration. Further applications. Plane analytic geometry. Polar coordinates and parametric equations. Infinite series, including power series.",
+  "offeredTerms": ["Fall", "Spring", "Summer"],
+  "grading": "CAS Graded",
+  "repeatable": false,
+  "prerequisites": []
+}

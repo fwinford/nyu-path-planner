@@ -1,0 +1,21 @@
+{
+  "id": "mathematics-minor",
+  "name": "Mathematics",
+  "type": "minor",
+  "school": "CAS",
+  "totalCredits": 16,
+  "requirements": [
+    {
+      "type": "rule",
+      "description": "Choose 4 MATH-UA courses numbered 120 or higher.",
+      "choose": 4,
+      "coursePrefix": "MATH-UA",
+      "courseNumberMin": 120
+    }
+  ],
+  "notes": [
+    "Students must take four MATH-UA courses numbered 120 or above.",
+    "There are no specific course requirements; any qualifying electives can be chosen."
+  ],
+  "lastUpdated": "2025-07-28"
+}

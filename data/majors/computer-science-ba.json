@@ -1,0 +1,42 @@
+{
+  "id": "computer-science-ba",
+  "name": "Computer Science",
+  "degree": "BA",
+  "type": "major",
+  "school": "CAS",
+  "totalCredits": 36,
+  "requiredCourses": [
+    { "courseId": "CSCI-UA.0101", "type": "core" },
+    { "courseId": "CSCI-UA.0102", "type": "core" },
+    { "courseId": "CSCI-UA.0201", "type": "core" },
+    { "courseId": "CSCI-UA.0202", "type": "core" },
+    { "courseId": "CSCI-UA.0301", "type": "theory" },
+    { "courseId": "CSCI-UA.0480", "type": "capstone" }
+  ],
+  "electiveGroups": [
+    {
+      "groupId": "advanced-electives",
+      "groupName": "Advanced Electives",
+      "description": "Choose any 3 advanced electives from the approved list.",
+      "choose": 3,
+      "courseIds": [
+        "CSCI-UA.0203",
+        "CSCI-UA.0204",
+        "CSCI-UA.0380",
+        "CSCI-UA.0466",
+        "CSCI-UA.0473",
+        "CSCI-UA.0474",
+        "CSCI-UA.0481",
+        "CSCI-UA.0483",
+        "CSCI-UA.0485",
+        "CSCI-UA.0489"
+      ]
+    }
+  ],
+  "notes": [
+    "Students must earn a grade of C or better in all courses used to fulfill the major.",
+    "A maximum of one research course (CSCI-UA.0997 or CSCI-UA.0998) can count as an advanced elective.",
+    "No course can be used to satisfy two requirements."
+  ],
+  "lastUpdated": "2025-07-28"
+}

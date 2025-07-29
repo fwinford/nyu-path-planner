@@ -1,0 +1,10 @@
+{
+  "id": "PHIL-UA.0045",
+  "title": "Political Philosophy",
+  "credits": 4,
+  "description": "Examines fundamental issues concerning the justification of political institutions. Topics may include democratic theory, political obligation and liberty, criteria of a just society, human rights, and civil disobedience.",
+  "offeredTerms": ["Every Other Year"],
+  "grading": "CAS Graded",
+  "repeatable": false,
+  "prerequisites": []
+}

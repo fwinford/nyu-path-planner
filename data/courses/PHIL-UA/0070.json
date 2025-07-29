@@ -1,0 +1,10 @@
+{
+  "id": "PHIL-UA.0070",
+  "title": "Logic",
+  "credits": 4,
+  "description": "An introduction to the basic techniques of sentential and predicate logic. Students learn how to put arguments from ordinary language into symbols, how to construct derivations within a formal system, and how to ascertain validity using truth tables or models.",
+  "offeredTerms": ["Fall", "Spring"],
+  "grading": "CAS Graded",
+  "repeatable": false,
+  "prerequisites": []
+}

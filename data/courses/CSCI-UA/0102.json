@@ -1,0 +1,24 @@
+{
+  "id": "CSCI-UA.0102",
+  "title": "Data Structures",
+  "credits": 4,
+  "description": "The use and design of data structures, which organize information in computer memory. Stacks, queues, linked lists, binary trees: how to implement them in a high level language, how to analyze their effect on algorithm efficiency, and how to modify them. Programming assignments.",
+  "offeredTerms": ["Fall", "Spring", "Summer"],
+  "grading": "CAS Graded",
+  "repeatable": false,
+  "prerequisites": [
+    {
+      "type": "course",
+      "options": [
+        { "id": "CSCI-UA.0101", "minGrade": "C" }
+      ]
+    },
+    {
+      "type": "exam",
+      "options": [
+        { "exam": "AP Computer Science A", "minScore": 4 },
+        { "exam": "AP Computer Science AB", "minScore": 4 }
+      ]
+    }
+  ]
+}
