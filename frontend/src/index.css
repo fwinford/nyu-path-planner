@@ -1,0 +1,15 @@
+/*
+  The following @tailwind directives require processing by Tailwind CSS.
+  Make sure your build tool (like PostCSS with Tailwind plugin) is set up correctly.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
