@@ -1,6 +1,6 @@
 import fs from 'fs-extra';
 import { globby } from 'globby';
-import { db } from './firebase'; // make sure you create this file
+import { db } from './firebase';// make sure you create this file
 
 const readJsonFiles = async (pattern: string) => {
   const files = await globby(pattern);
@@ -15,9 +15,13 @@ const readJsonFiles = async (pattern: string) => {
 };
 
 const main = async () => {
-  const majors = await readJsonFiles('data/majors/*.json');
-  const minors = await readJsonFiles('data/minors/*.json');
-  const courses = await readJsonFiles('data/courses/*/*.json');
+  console.log("🟡 Current working directory:", process.cwd());
+  const majors = await readJsonFiles('./data/majors/*.json');
+  const minors = await readJsonFiles('./data/minors/*.json');
+  const courses = await readJsonFiles('./data/courses/*/*.json');
+  console.log(`📘 Majors:`, majors.map(m => m.id));
+  console.log(`📗 Minors:`, minors.map(m => m.id));
+  console.log(`📙 Courses:`, courses.map(c => c.id));
 
   for (const major of majors) {
     try {

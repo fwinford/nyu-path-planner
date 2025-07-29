@@ -1,14 +1,14 @@
-import { initializeApp, cert } from 'firebase-admin/app';
-import { getFirestore } from 'firebase-admin/firestore';
+import { initializeApp, cert } from "firebase-admin/app";
+import { getFirestore } from "firebase-admin/firestore";
 
-// Connect to emulator if available
+// Check if we're using the emulator
 if (process.env.FIRESTORE_EMULATOR_HOST) {
-  console.log('🔧 Connected to Firestore Emulator');
-  // For emulator, we can use a test project ID
-  initializeApp({ projectId: 'demo-project' });
+  console.log("✅ Connected to Firestore Emulator:", process.env.FIRESTORE_EMULATOR_HOST);
+  // Use the same project ID as your Firebase project (check firebase.json)
+  initializeApp({ projectId: 'path-planner-nyu' }); // or whatever your project ID is
 } else {
-  console.warn('⚠️ You are not connected to the Firestore Emulator!');
-  // For production, you'd need proper credentials
+  console.warn("⚠️ You are NOT connected to the Firestore Emulator.");
+  console.warn("⚠️ Make sure to run 'firebase emulators:start' first!");
   initializeApp();
 }
 

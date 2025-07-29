@@ -38,6 +38,16 @@
       "courseIds": []
     }
   ],
+  "defaultPlan": {
+    "Freshman Fall": ["PHIL-UA.0100"],
+    "Freshman Spring": ["PHIL-UA.0020"],
+    "Sophomore Fall": ["PHIL-UA.0070"],
+    "Sophomore Spring": ["PHIL-UA.0040"],
+    "Junior Fall": ["PHIL-UA.0300"],
+    "Junior Spring": ["PHIL-UA.0041"],
+    "Senior Fall": ["PHIL-UA.0045"],
+    "Senior Spring": ["PHIL-UA.0999"]
+  },
   "notes": [
     "PHIL-UA 70 (Logic) is required.",
     "PHIL-UA 20 (Ancient Philosophy) is required.",
